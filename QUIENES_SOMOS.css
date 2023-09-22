@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado (header) */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 20px;
+    display: flex; /* Usar flexbox para alinear elementos horizontalmente */
+    justify-content: space-between; /* Distribuir elementos en el espacio disponible */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+/* Estilos para el logotipo */
+.logo img {
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+/*modifica texto de barra nav*/
+nav ul a {
+    margin-right: 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* */
+.boton {
+    display: flex; /* Usar flexbox para alinear elementos horizontalmente */
+}
+
+button {
+    background-color: #cc5200;
+    color: white;
+    border-radius:18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px; /* Espacio entre los botones */
+}
+/*========================================*/
+/*CAMBIAR COLOR DE SELECCION DEL PANEL DE NAV*/
+nav a:hover{
+    color:rgb(255, 0, 238);
+    text-decoration: underline;
+
+}
+
+/*MOD PIE DE PAGINA*/
+footer{
+    text-align:center;
+    background-color: rgb(168, 100, 100);
+    padding: 5px;
+    
+}
+/*MOD TEXTO Y COLOR PIE DE PAGINA*/
+.copy{
+    color: rgb(10, 7, 7);
+    font-size: 8px;
+    margin: 15px;
+}
+/*####################################QUIENES SOMOS################################*/
