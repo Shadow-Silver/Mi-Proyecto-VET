@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--ventana web -->
     <link rel="icon" href="IMAGENES/ÍCONO.jpeg">
-    <title>|CENTRAL-VET|SOMOS|</title>
+    <title>|CENTRAL-VET|FORMULARIO|</title>
     <!--conexion css -->
-    <link rel="stylesheet" href="SERVICIOS.css">
+    <link rel="stylesheet" href="AGENDA.css">
      <META name=”description” content="encuentra lo que necesitas en un solo lugar, al alcance de tu mano">
      <META name=”keywords” content="mercado virtual PARA TU MASCOTA,mercado on.line,online, VET, VETERINARIA">
 </head>
@@ -16,12 +16,11 @@
     <header>
         <div class="barnav">
             <div class="logo">
-                <a href="Inicio.html"></a>
                 <a href="#"><img src="http://drive.google.com/uc?export=view&id=1bRvap90kbOkrq1DqaaMJtNtmDVT_IFqE" alt="Merca one" width="80" height="80"></div></a>
             </div>
             <div class="menu"></div>
                 <nav>
-                    <ul> 
+                    <ul>
                         <a href="Inicio.html">Inicio</a>
                         <a href="Clinicas.html">Clinicas</a>
                         <a href="Servicios.html">Servicios</a>
@@ -32,27 +31,53 @@
             </div>
             <div class="boton">
                 <button>Telefono</button>
-                <button>Agenda</button>
+                <a href="Agenda.html" target="_blank">
+                    <button>Agenda</button>
+                  </a>
             </div>
         </div>
     </header>
     <main>
-    </section>
-        <section class="nosotros-information">
-        <h2>Quienes Somos?</h2>
-        <p>Somos un equipo de profesionales entregados a nuestro trabajo</p>
-        <p>Nuestro compromiso con brindar la mejor experiencia nos ha llevado a convertirnos en la solución anhelada para mejorar y alargar la vida de nuestros perros y gatos, siendo la red de clínicas más grande de la región.</p>
-        <p>Por eso, somos una clínica comprometida con la innovación y el bienestar para que nuestros perros y gatos vivan felices y mucho más tiempo. Únete a nosotros y llevemos la atención y medicina veterinaria a un nuevo nivel.
-            <br> Juntos, haremos que nuestras mascotas tengan una vida plena, feliz y duradera.</p>
-        <div class="centered-video">
-         <iframe width="500" height="315" src="https://www.youtube.com/embed/DWZtvtq9qig?si=6_pHsj7mZGY3oSM_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen autoplay></iframe>
-        </div>
-        </section>    
+        <form>
+            <div class="input-padron">
+                <label for="Nombre y Apellido"> Nombre y Apellido</label>
+                <input type="text" id="Nombre y Apellido"required placeholder="Pepito Perez">
+            
+                <label for="Correo Electronico">Correo Electronico</label>
+                <input type="text" id="Correo Electronico"required placeholder="ejemplo.nuevo@dominio.com.co">
+
+                <label for="Telefono">Telefono</label>
+                <input type="text" id="Telefono"required placeholder="(+##) ### #######">
+            
+            </div>
+            <textarea cols="70" rows="10" id="Mensaje" required placeholder="Alguna recomendacion?"></textarea>
+
+            <div>
+
+                <p>¿Cómo le gustaria ser contactado?</p>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">email</label>
+                
+
+                <label for="radio-telefono"><input type="radio" name="contacto" value="email" id="radio-telefono">Telefono</label>
+                
+
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="email" id="radio-whatsapp">WhatsApp</label>
+                
+
+            </div>
+
+            <label class="checkbox"><input type="checkbox">¿Le gustaria recibir novedades? </label>
+
+            <input class="enviar" type="submit" value="ENVIAR">
+
+        </form>            
     </main>
+   
     <footer>
         <a href="#"><img src="http://drive.google.com/uc?export=view&id=1OOD8IY7T2WElF9PxcdgxfYa7XQsDGHkg"alt="Merca one" width="150" height="100"></div></a>
         <a href="#"><img src="http://drive.google.com/uc?export=view&id=1WLYPu-Prp7YxnmlO2tUKwKWybQ4Nd8OP"alt="Merca one" width="150" height="150"></div></a>
         <p class="copy"> &copy Copyright CENTRAL VET - 2023 </p>
-    </footer>   
+    </footer>  
 </body>
 </html>
