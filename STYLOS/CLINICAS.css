@@ -46,7 +46,7 @@ button {
 /*========================================*/
 /*CAMBIAR COLOR DE SELECCION DEL PANEL DE NAV*/
 nav a:hover{
-    color:rgb(255, 0, 238);
+    color:#ff00ee;
     text-decoration: underline;
 
 }
